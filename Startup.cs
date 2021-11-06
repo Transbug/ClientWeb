@@ -33,7 +33,7 @@ namespace ClientWeb
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Testing API : /index.html");
+                    await context.Response.WriteAsync("Testing API :https://lab07webclient.azurewebsites.net/index.html");
                 });
             });
         }
